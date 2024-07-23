@@ -6,7 +6,7 @@ Tool to boost start your Linuxing experience out of the box!
 
 * Debian
 
-_...more to be added soon_
+_...more (base ones such as openSUSE, Fedora, Arch) to be added soon_
 
 ### How to use
 
