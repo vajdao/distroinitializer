@@ -1,6 +1,8 @@
-# Linux distribution initializer
+# Linux distribution initializer for KDE Plasma only
 
-Tool to boost start your Linuxing experience out of the box!
+Tool to boost start your Linuxing experience out of the box.
+
+$${\color{red}**This \space program \space is \space intended \space for \space KDE \space Plasma \space use \space only!!!**}$$
 
 ## Currently supported distro
 
@@ -12,6 +14,8 @@ _...more (base ones such as openSUSE, Fedora, Arch) to be added soon_
 
 clone, then: `chmod +x init.sh && ./init.sh` and follow the interactive prompt.
 Currently my native language Hungarian and the common English are supported.
+
+$${\color{red}**This \space program \space is \space intended \space for \space KDE \space Plasma \space use \space only!!!**}$$
 
 ### What it does
 
@@ -37,6 +41,9 @@ Initially installs `nala` then installs the following packages in one go via **n
     neochat
     thunderbird
     lutris (only Trixie and up)
+
+
+$${\color{red}**This \space program \space is \space intended \space for \space KDE \space Plasma \space use \space only!!!**}$$
 
 ### TODO (Tasks for myself to improve project):
 
