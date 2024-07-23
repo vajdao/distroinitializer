@@ -10,8 +10,10 @@ debian_version=$(lsb_release -cs)
 # Ha a verzió Trixie vagy újabb, akkor fastfetch, egyébként neofetch
 if [[ "$debian_version" == "trixie" ]]; then
     sysinfo_tool="fastfetch"
+    lutris_available=true
 else
     sysinfo_tool="neofetch"
+    lutris_available=false
 fi
 
 pkgnames=(
@@ -31,10 +33,15 @@ pkgnames=(
     kwin-addons         # KDE ablakkezelő kiegészítések
     gamemode            # Rendszer teljesítményének optimalizálása játék közben
     plasma-gamemode     # Integráció a GameMode-dal KDE Plasma alatt
-    lutris              # Nyílt forráskódú játékkezelő
     qbittorrent         # Bittorrent kliens
     neochat             # KDE Matrix kliens
     thunderbird         # E-mail kliens
+    bash-completion     # Bash automatikus kiegészítés
 )
+
+# Csak akkor adjuk hozzá a lutris-t, ha trixie verzión vagyunk
+if [[ "$lutris_available" == true ]]; then
+    pkgnames+=(lutris) # Nyílt forráskódú játékkezelő
+fi
 
 sudo nala install -y "${pkgnames[@]}"
