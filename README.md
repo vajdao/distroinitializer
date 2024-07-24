@@ -4,11 +4,9 @@ Tool to boost start your Linuxing experience out of the box.
 
 $${\color{red}**This \space program \space is \space intended \space for \space KDE \space Plasma \space use \space only!!!**}$$
 
-## Currently supported distro
+## Which distros are supported
 
-* Debian
-
-_...more (base ones such as openSUSE, Fedora, Arch) to be added soon_
+Debian will be the only supported distro, I have no plans to implement the others
 
 ### How to use
 
