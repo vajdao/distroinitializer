@@ -37,25 +37,26 @@ else
 fi
 
 pkgnames=(
-    vlc                 # VLC médialejátszó, különféle formátumokat támogat
-    powerdevil          # KDE energia kezelő, segít az akkumulátor és energia beállítások kezelésében
-    power-profiles-daemon # Energiaprofilok kezelése, segít optimalizálni a rendszer teljesítményét és fogyasztását
-    timeshift           # Rendszer visszaállító eszköz, hasznos rendszermentések készítéséhez
-    rdfind              # Duplikált fájlok keresése és eltávolítása a rendszeren
-    zsh                 # Z shell, egy erőteljes parancssori héj
-    "$sysinfo_tool"     # Rendszerinformációk megjelenítése (fastfetch vagy neofetch a Debian verziótól függően)
-    krename             # Tömeges fájlátnevező eszköz
-    partitionmanager    # KDE partíciókezelő, segít a lemezpartíciók kezelésében
-    filelight           # Lemezhasználat elemző, vizuálisan megjeleníti a fájlok és könyvtárak méretét
-    synaptic            # Grafikus csomagkezelő, egyszerűbbé teszi a csomagok telepítését és eltávolítását
-    inxi                # Rendszerinformációs eszköz
-    kodi                # Médialejátszó és szórakoztató központ
-    kwin-addons         # KDE ablakkezelő kiegészítések
-    gamemode            # Rendszer teljesítményének optimalizálása játék közben
-    plasma-gamemode     # Integráció a GameMode-dal KDE Plasma alatt
-    qbittorrent         # Bittorrent kliens
-    neochat             # KDE Matrix kliens
-    thunderbird         # E-mail kliens
+    bash-completion
+    vlc
+    powerdevil
+    power-profiles-daemon
+    timeshift
+    rdfind
+    zsh
+    "$sysinfo_tool"
+    krename
+    partitionmanager
+    filelight
+    synaptic
+    inxi
+    kodi
+    kwin-addons
+    gamemode
+    plasma-gamemode
+    qbittorrent
+    neochat
+    thunderbird
 )
 
 # Csak akkor adjuk hozzá a lutris-t, ha trixie verzión vagyunk
