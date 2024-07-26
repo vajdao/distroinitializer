@@ -4,7 +4,7 @@ Tool to boost start your Linuxing experience out of the box.
 
 # Well that was quick...
 
-Due to some bad experiences with debian lately, I decided to simply archive this repo, and not look at debian again. Fork if you want
+Due to some bad experiences with debian lately, I decided to simply archive this repo, and not look at debian again ever, openSUSE is more reliable. Fork if you want
 
 $${\color{red}**This \space program \space is \space intended \space for \space KDE \space Plasma \space use \space only!!!**}$$
 
